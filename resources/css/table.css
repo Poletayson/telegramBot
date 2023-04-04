@@ -1,0 +1,1645 @@
+.table__header {
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(74, 77, 118, .1)
+}
+
+.table__header div {
+    position: relative;
+    cursor: pointer
+}
+
+.table__header div:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 55%;
+    right: 0;
+    transform: translateY(-50%);
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='10' height='10' viewBox='0 0 10 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5.495 6.82l4.3-3.771a.562.562 0 0 0 0-.87.771.771 0 0 0-.99 0L5 5.518 1.195 2.18a.772.772 0 0 0-.99 0 .562.562 0 0 0 0 .869l4.3 3.771A.75.75 0 0 0 5 7c.18 0 .358-.06.495-.18z' fill='%23616161'/%3E%3C/svg%3E")
+}
+
+.table_monitoring .table__header {
+    padding: 8px 111px 8px 71px
+}
+
+.table_monitoring .table__header-fio {
+    flex: 1 0 78px;
+    max-width: 78px;
+    margin-right: 50px
+}
+
+.table_monitoring .table__header-birth {
+    flex: 1 0 117px;
+    max-width: 117px;
+    margin-right: 50px
+}
+
+.table_monitoring .table__header-reg {
+    flex: 1 0 69px;
+    max-width: 69px;
+    margin-right: 35px
+}
+
+.table_monitoring .table__header-diagnos {
+    flex: 1 0 107px;
+    max-width: 107px;
+    margin-right: 127px
+}
+
+.table_monitoring .table__header-status {
+    flex: 1 0 60px;
+    max-width: 60px;
+    margin-right: 135px
+}
+
+.table_monitoring .table__header-days {
+    flex: 1 0 60px;
+    max-width: 60px;
+    margin-right: 0
+}
+
+.table_monitoring .table__row-top {
+    padding: 10px 50px 10px 30px
+}
+
+.table_monitoring .table__row-bottom {
+    padding: 10px 176px 10px 70px
+}
+
+.table_monitoring .table__top-info {
+    flex: 1 0 20px;
+    max-width: 20px;
+    margin-right: 20px
+}
+
+.table_monitoring .table__top-fio {
+    flex: 1 0 98px;
+    max-width: 98px;
+    margin-right: 31px
+}
+
+.table_monitoring .table__top-birth {
+    flex: 1 0 78px;
+    max-width: 78px;
+    margin-right: 88px
+}
+
+.table_monitoring .table__top-reg {
+    flex: 1 0 17px;
+    max-width: 17px;
+    margin-right: 87px
+}
+
+.table_monitoring .table__top-diagnos {
+    flex: 1 0 203px;
+    max-width: 203px;
+    margin-right: 31px
+}
+
+.table_monitoring .table__top-status {
+    flex: 1 0 190px;
+    max-width: 190px;
+    margin-right: 5px
+}
+
+.table_monitoring .table__top-days {
+    flex: 1 0 33px;
+    max-width: 33px;
+    margin-right: 69px
+}
+
+.table_monitoring .table__bottom-call {
+    flex: 1 0 40px;
+    max-width: 40px;
+    margin-right: 90px
+}
+
+.table_monitoring .table__bottom-adress {
+    flex: 1 0 173px;
+    max-width: 173px;
+    margin-right: 97px
+}
+
+.table_monitoring .table__bottom-suspicion {
+    flex: 1 0 204px;
+    max-width: 204px;
+    margin-right: 30px
+}
+
+.table_monitoring .table__bottom-hospital {
+    flex: 1 0 190px;
+    max-width: 190px;
+    margin-right: 0
+}
+
+.table_napr .table__header {
+    padding: 8px 67px 8px 80px
+}
+
+.table_napr .table__header-vid {
+    flex: 1 0 88px;
+    max-width: 88px;
+    margin-right: 20px
+}
+
+.table_napr .table__header-fio {
+    flex: 1 0 78px;
+    max-width: 78px;
+    margin-right: 50px
+}
+
+.table_napr .table__header-birth {
+    flex: 1 0 117px;
+    max-width: 117px;
+    margin-right: 20px
+}
+
+.table_napr .table__header-orgnapr, .table_napr .table__header-orgprin {
+    flex: 1 0 135px;
+    max-width: 135px;
+    margin-right: 105px
+}
+
+.table_napr .table__header-diagnos {
+    flex: 1 0 70px;
+    max-width: 70px;
+    margin-right: 0
+}
+
+.table_napr .table__row-top {
+    padding: 10px 20px 10px 30px
+}
+
+.table_napr .table__row-bottom {
+    padding: 10px 100px
+}
+
+.table_napr .table__top-status {
+    flex: 1 0 20px;
+    max-width: 20px;
+    margin-right: 30px
+}
+
+.table_napr .table__top-vid {
+    flex: 1 0 78px;
+    max-width: 78px;
+    margin-right: 34px
+}
+
+.table_napr .table__top-fio {
+    flex: 1 0 108px;
+    max-width: 108px;
+    margin-right: 20px
+}
+
+.table_napr .table__top-birth {
+    flex: 1 0 84px;
+    max-width: 84px;
+    margin-right: 43px
+}
+
+.table_napr .table__top-orgnap, .table_napr .table__top-orgprin {
+    flex: 1 0 220px;
+    max-width: 220px;
+    margin-right: 30px
+}
+
+.table_napr .table__top-diagnos {
+    flex: 1 0 55px;
+    max-width: 55px;
+    margin-right: 42px
+}
+
+.table_napr .table__top-alert {
+    flex: 1 0 20px;
+    max-width: 20px;
+    margin-right: 0
+}
+
+.table_napr .table__bottom-edit {
+    flex: 1 0 40px;
+    max-width: 40px;
+    margin-right: 48px
+}
+
+.table_napr .table__bottom-create {
+    flex: 1 0 128px;
+    max-width: 128px;
+    margin-right: 137px
+}
+
+.table_napr .table__bottom-specialist {
+    flex: 1 0 200px;
+    max-width: 200px;
+    margin-right: 0
+}
+
+.table_dn .table__header {
+    padding: 8px 118px 8px 70px
+}
+
+.table_dn .table__header-fio {
+    flex: 1 0 122px;
+    max-width: 122px;
+    margin-right: 110px
+}
+
+.table_dn .table__header-birth {
+    flex: 1 0 117px;
+    max-width: 117px;
+    margin-right: 80px
+}
+
+.table_dn .table__header-reg {
+    flex: 1 0 67px;
+    max-width: 67px;
+    margin-right: auto
+}
+
+.table_dn .table__header-diagnos {
+    flex: 1 0 81px;
+    max-width: 81px;
+    margin-right: 0
+}
+
+.table_dn .table__row-top {
+    padding: 18px 50px 18px 30px
+}
+
+.table_dn .table__row-bottom {
+    padding: 10px 99px 28px 70px
+}
+
+.table_dn .table__top-info {
+    flex: 1 0 20px;
+    max-width: 20px;
+    margin-right: 20px
+}
+
+.table_dn .table__top-fio {
+    flex: 1 0 161px;
+    max-width: 161px;
+    margin-right: 71px
+}
+
+.table_dn .table__top-birth {
+    flex: 1 0 72px;
+    max-width: 72px;
+    margin-right: 125px
+}
+
+.table_dn .table__top-reg {
+    flex: 1 0 17px;
+    max-width: 17px;
+    margin-right: auto
+}
+
+.table_dn .table__top-diagnos {
+    flex: 1 0 48px;
+    max-width: 48px;
+    margin-right: 81px
+}
+
+.table_dn .table__top-alert {
+    flex: 1 0 20px;
+    max-width: 20px;
+    margin-right: 0
+}
+
+.table_dn .table__bottom-call {
+    flex: 1 0 40px;
+    max-width: 40px;
+    margin-right: 192px
+}
+
+.table_dn .table__bottom-adress {
+    flex: 1 0 173px;
+    max-width: 173px;
+    margin-right: 25px
+}
+
+.table_dn .table__bottom-suspicion {
+    flex: 1 0 276px;
+    max-width: 276px;
+    margin-right: 94px
+}
+
+.table_dn .table__bottom-hospital {
+    flex: 1 0 101px;
+    max-width: 101px;
+    margin-right: 0
+}
+
+.table_zvon .table__header {
+    padding: 8px 50px 8px 70px
+}
+
+.table_zvon .table__header-fio {
+    flex: 1 0 122px;
+    max-width: 122px;
+    margin-right: 110px
+}
+
+.table_zvon .table__header-birth {
+    flex: 1 0 117px;
+    max-width: 117px;
+    margin-right: 150px
+}
+
+.table_zvon .table__header-reg {
+    flex: 1 0 67px;
+    max-width: 67px;
+    margin-right: auto
+}
+
+.table_zvon .table__header-planned {
+    flex: 1 0 110px;
+    max-width: 110px;
+    margin-right: 0
+}
+
+.table_zvon .table__row-top {
+    padding: 18px 88px 18px 30px
+}
+
+.table_zvon .table__row-bottom {
+    padding: 10px 99px 28px 70px
+}
+
+.table_zvon .table__top-info {
+    flex: 1 0 20px;
+    max-width: 20px;
+    margin-right: 20px
+}
+
+.table_zvon .table__top-fio {
+    flex: 1 0 161px;
+    max-width: 161px;
+    margin-right: 70px
+}
+
+.table_zvon .table__top-birth {
+    flex: 1 0 72px;
+    max-width: 72px;
+    margin-right: 195px
+}
+
+.table_zvon .table__top-reg {
+    flex: 1 0 17px;
+    max-width: 17px;
+    margin-right: auto
+}
+
+.table_zvon .table__top-planned {
+    flex: 1 0 72px;
+    max-width: 72px;
+    margin-right: 0
+}
+
+.table_zvon .table__bottom-call {
+    flex: 1 0 40px;
+    max-width: 40px;
+    margin-right: 192px
+}
+
+.table_zvon .table__bottom-adress {
+    flex: 1 0 173px;
+    max-width: 173px;
+    margin-right: 94px
+}
+
+.table_zvon .table__bottom-suspicion {
+    flex: 1 0 271px;
+    max-width: 271px;
+    margin-right: 0
+}
+
+.table_users .table__header {
+    padding: 8px 33px 8px 30px
+}
+
+.table_users .table__row-top {
+    padding: 18px 33px 18px 30px
+}
+
+.table_users .table__row-bottom {
+    padding: 14px 33px 14px 30px
+}
+
+.table_users .table__header-fio {
+    flex: 1 0 59px;
+    max-width: 59px;
+    margin-right: 115px
+}
+
+.table_users .table__header-login {
+    flex: 1 0 56px;
+    max-width: 56px;
+    margin-right: 110px
+}
+
+.table_users .table__header-typeorg {
+    flex: 1 0 100px;
+    max-width: 100px;
+    margin-right: 30px
+}
+
+.table_users .table__header-org {
+    flex: 1 0 102px;
+    max-width: 102px;
+    margin-right: 200px
+}
+
+.table_users .table__header-group {
+    flex: 1 0 70px;
+    max-width: 70px;
+    margin-right: 70px
+}
+
+.table_users .table__header-date {
+    flex: 1 0 95px;
+    max-width: 95px;
+    margin-right: 0
+}
+
+.table_users .table__top-fio {
+    flex: 1 0 140px;
+    max-width: 140px;
+    margin-right: 30px
+}
+
+.table_users .table__top-login {
+    flex: 1 0 145px;
+    max-width: 145px;
+    margin-right: 25px
+}
+
+.table_users .table__top-typeorg {
+    flex: 1 0 70px;
+    max-width: 70px;
+    margin-right: 60px
+}
+
+.table_users .table__top-org {
+    flex: 1 0 271px;
+    max-width: 271px;
+    margin-right: 30px
+}
+
+.table_users .table__top-group {
+    flex: 1 0 56px;
+    max-width: 56px;
+    margin-right: 85px
+}
+
+.table_users .table__top-date {
+    flex: 1 0 72px;
+    max-width: 72px;
+    margin-right: 0
+}
+
+
+.table_plan-history .table__header, .table_plan-history .table__row-top {
+    min-height: 50px;
+    padding: 8px 40px 8px 100px
+}
+
+.table_plan-history .table__row {
+    cursor: auto
+}
+
+.table_plan-history .table__header-date {
+    flex: 1 0 107px;
+    max-width: 107px;
+    margin-right: 95px
+}
+
+.table_plan-history .table__header-type {
+    flex: 1 0 97px;
+    max-width: 97px;
+    margin-right: 101px
+}
+
+.table_plan-history .table__header-operation {
+    flex: 1 0 82px;
+    max-width: 82px;
+    margin-right: 143px
+}
+
+.table_plan-history .table__header-user {
+    flex: 1 0 113px;
+    max-width: 113px;
+    margin-right: 87px
+}
+
+.table_plan-history .table__header-cout {
+    flex: 1 0 104px;
+    max-width: 104px;
+    margin-right: 0
+}
+
+.table_plan-history .table__top-date {
+    flex: 1 0 72px;
+    max-width: 72px;
+    margin-right: 130px
+}
+
+.table_plan-history .table__top-type {
+    flex: 1 0 31px;
+    max-width: 31px;
+    margin-right: 167px
+}
+
+.table_plan-history .table__top-operation {
+    flex: 1 0 178px;
+    max-width: 178px;
+    margin-right: 47px
+}
+
+.table_plan-history .table__top-user {
+    flex: 1 0 79px;
+    max-width: 79px;
+    margin-right: 121px
+}
+
+.table_plan-history .table__top-cout {
+    flex: 1 0 104px;
+    max-width: 104px;
+    margin-right: 0
+}
+
+.table_plan-history-visit .table__header, .table_plan-history-visit .table__row-top {
+    min-height: 50px;
+    padding: 8px 40px 8px 100px
+}
+
+.table_plan-history-visit .table__row {
+    cursor: auto
+}
+
+.table_plan-history-visit .table__row:nth-child(2) .table__text {
+    color: #a6a6a6 !important
+}
+
+.table_plan-history-visit .table__row:nth-child(2) .table__top-date:before {
+    background-color: #fdae55
+}
+
+.table_plan-history-visit .table__header-date {
+    flex: 1 0 137px;
+    max-width: 137px;
+    margin-right: 164px
+}
+
+.table_plan-history-visit .table__header-value {
+    flex: 1 0 78px;
+    max-width: 78px;
+    margin-right: 0
+}
+
+.table_plan-history-visit .table__top-date {
+    flex: 1 0 200px;
+    max-width: 200px;
+    margin-right: 98px;
+    position: relative
+}
+
+.table_plan-history-visit .table__top-date:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 3px;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background-color: #4a4d76;
+    border-radius: 100px
+}
+
+.table_plan-history-visit .table__top-value {
+    flex: 1 0 400px;
+    max-width: 400px;
+    margin-right: 0
+}
+
+.table_export1 {
+    margin-bottom: 34px
+}
+
+.table_export1 .table__header, .table_export1 .table__row-top {
+    min-height: 50px;
+    padding: 8px 20px 8px 30px
+}
+
+.table_export1 .table__header div:first-child:before {
+    display: none
+}
+
+.table_export1 .table__header-input, .table_export1 .table__top-input {
+    height: 15px
+}
+
+.table_export1 .table__row {
+    cursor: auto
+}
+
+.table_export1 .table__header-input {
+    flex: 1 0 17px;
+    max-width: 17px;
+    margin-right: 57px
+}
+
+.table_export1 .table__header-code {
+    flex: 1 0 118px;
+    max-width: 118px;
+    margin-right: 76px
+}
+
+.table_export1 .table__header-title {
+    flex: 1 0 118px;
+    max-width: 118px;
+    margin-right: 285px
+}
+
+.table_export1 .table__header-date {
+    flex: 1 0 144px;
+    max-width: 144px;
+    margin-right: 70px
+}
+
+.table_export1 .table__header-cout {
+    flex: 1 0 122px;
+    max-width: 122px;
+    margin-right: 0
+}
+
+.table_export1 .table__top-input {
+    flex: 1 0 17px;
+    max-width: 17px;
+    margin-right: 57px
+}
+
+.table_export1 .table__top-code {
+    flex: 1 0 72px;
+    max-width: 72px;
+    margin-right: 122px
+}
+
+.table_export1 .table__top-title {
+    flex: 1 0 320px;
+    max-width: 320px;
+    margin-right: 83px
+}
+
+.table_export1 .table__top-date {
+    flex: 1 0 72px;
+    max-width: 72px;
+    margin-right: 142px
+}
+
+.table_export1 .table__top-cout {
+    flex: 1 0 122px;
+    max-width: 122px;
+    margin-right: 0
+}
+
+.table_export1 .table__title-export {
+    padding: 14px 30px;
+    margin-bottom: 10px;
+    min-height: 50px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(74, 77, 118, .1);
+    border-radius: 10px
+}
+
+.table_export2 {
+    margin-bottom: 34px
+}
+
+.table_export2 .table__header, .table_export2 .table__row-top {
+    min-height: 50px;
+    padding: 8px 20px 8px 30px
+}
+
+.table_export2 .table__icon-export span {
+    width: 20px;
+    height: 20px;
+    display: inline-block
+}
+
+.table_export2 .table__row {
+    cursor: auto
+}
+
+.table_export2 .table__header-id {
+    flex: 1 0 76px;
+    max-width: 76px;
+    margin-right: 60px
+}
+
+.table_export2 .table__header-title {
+    flex: 1 0 160px;
+    max-width: 160px;
+    margin-right: 70px
+}
+
+.table_export2 .table__header-period {
+    flex: 1 0 69px;
+    max-width: 69px;
+    margin-right: 167px
+}
+
+.table_export2 .table__header-date {
+    flex: 1 0 109px;
+    max-width: 109px;
+    margin-right: 80px
+}
+
+.table_export2 .table__header-user {
+    flex: 1 0 110px;
+    max-width: 110px;
+    margin-right: 0
+}
+
+.table_export2 .table__top-id {
+    flex: 1 0 70px;
+    max-width: 70px;
+    margin-right: 66px
+}
+
+.table_export2 .table__top-title {
+    flex: 1 0 189px;
+    max-width: 189px;
+    margin-right: 41px
+}
+
+.table_export2 .table__top-period {
+    flex: 1 0 169px;
+    max-width: 169px;
+    margin-right: 67px
+}
+
+.table_export2 .table__top-date {
+    flex: 1 0 83px;
+    max-width: 83px;
+    margin-right: 106px
+}
+
+.table_export2 .table__top-user {
+    flex: 1 0 149px;
+    max-width: 149px;
+    margin-right: 32
+}
+
+.table_export2 .table__top-link {
+    flex: 1 0 20px;
+    max-width: 20px;
+    margin-right: 0;
+    transition: all .3s ease-in-out
+}
+
+.table_export2 .table__top-link:hover {
+    opacity: .8
+}
+
+.table_import {
+    margin-bottom: 34px
+}
+
+.table_import .table__header, .table_import .table__row-top {
+    padding: 8px 48px 8px 100px;
+    min-height: 50px
+}
+
+.table_import .table__icon-export span {
+    width: 20px;
+    height: 20px;
+    display: inline-block
+}
+
+.table_import .table__row {
+    cursor: auto
+}
+
+.table_import .table__header-id {
+    flex: 1 0 76px;
+    max-width: 76px;
+    margin-right: 120px
+}
+
+.table_import .table__header-title {
+    flex: 1 0 160px;
+    max-width: 160px;
+    margin-right: 144px
+}
+
+.table_import .table__header-date1 {
+    flex: 1 0 109px;
+    max-width: 109px;
+    margin-right: 90px
+}
+
+.table_import .table__header-date2 {
+    flex: 1 0 113px;
+    max-width: 113px;
+    margin-right: 0
+}
+
+.table_import .table__top-id {
+    flex: 1 0 70px;
+    max-width: 70px;
+    margin-right: 126px
+}
+
+.table_import .table__top-title {
+    flex: 1 0 189px;
+    max-width: 189px;
+    margin-right: 115px
+}
+
+.table_import .table__top-date1 {
+    flex: 1 0 83px;
+    max-width: 83px;
+    margin-right: 116px
+}
+
+.table_import .table__top-date2 {
+    flex: 1 0 83px;
+    max-width: 83px;
+    margin-right: 120px
+}
+
+.table_import .table__top-link {
+    flex: 1 0 20px;
+    max-width: 20px;
+    margin-right: 0;
+    transition: all .3s ease-in-out
+}
+
+.table_import .table__top-link:hover {
+    opacity: .8
+}
+
+.table_analytics {
+    margin-bottom: 34px
+}
+
+.table_analytics .table__bottom, .table_analytics .table__header, .table_analytics .table__row-top {
+    padding: 10px 20px;
+    min-height: 50px
+}
+
+.table_analytics .table__bottom, .table_analytics .table__row {
+    cursor: auto
+}
+
+.table_analytics .table__header-diagnos {
+    flex: 1 0 70px;
+    max-width: 70px;
+    margin-right: 199px
+}
+
+.table_analytics .table__header-total, .table_analytics .table__top-total {
+    flex: 1 0 110px;
+    max-width: 110px;
+    margin-right: 30px
+}
+
+.table_analytics .table__header-plane, .table_analytics .table__top-plane {
+    flex: 1 0 56px;
+    max-width: 56px;
+    margin-right: 30px
+}
+
+.table_analytics .table__header-osmotr, .table_analytics .table__header-percent1, .table_analytics .table__top-osmotr, .table_analytics .table__top-percent1 {
+    flex: 1 0 117px;
+    max-width: 117px;
+    margin-right: 30px
+}
+
+.table_analytics .table__header-percent2, .table_analytics .table__top-percent2 {
+    flex: 1 0 114px;
+    max-width: 114px;
+    margin-right: 30px
+}
+
+.table_analytics .table__header-percent3, .table_analytics .table__top-percent3 {
+    flex: 1 0 97px;
+    max-width: 97px;
+    margin-right: 0
+}
+
+.table_analytics .table__top-diagnos {
+    flex: 1 0 250px;
+    max-width: 250px;
+    margin-right: 19px
+}
+
+.table_analytics .table__header-org {
+    flex: 1 0 193px;
+    max-width: 193px;
+    margin-right: 250px
+}
+
+.table_analytics .table__header-profile {
+    flex: 1 0 79px;
+    max-width: 79px;
+    margin-right: 127px
+}
+
+.table_analytics .table__header-daysall {
+    flex: 1 0 110px;
+    max-width: 110px;
+    margin-right: 55px
+}
+
+.table_analytics .table__header-days30 {
+    flex: 1 0 70px;
+    max-width: 70px;
+    margin-right: 56px
+}
+
+.table_analytics .table__header-days60 {
+    flex: 1 0 70px;
+    max-width: 70px;
+    margin-right: 0
+}
+
+.table_analytics .table__top-org {
+    flex: 1 0 408px;
+    max-width: 408px;
+    margin-right: 35px
+}
+
+.table_analytics .table__top-profile {
+    flex: 1 0 170px;
+    max-width: 170px;
+    margin-right: 36px
+}
+
+.table_analytics .table__bottom-daysall, .table_analytics .table__top-daysall {
+    flex: 1 0 41px;
+    max-width: 41px;
+    margin-right: 124px
+}
+
+.table_analytics .table__bottom-days30, .table_analytics .table__top-days30 {
+    flex: 1 0 41px;
+    max-width: 41px;
+    margin-right: 87px
+}
+
+.table_analytics .table__bottom-days60, .table_analytics .table__top-days60 {
+    flex: 1 0 68px;
+    max-width: 68px;
+    margin-right: 0
+}
+
+.table_analytics .table__bottom-title {
+    flex: 1 0 50px;
+    max-width: 50px;
+    margin-right: auto;
+    font-weight: 700
+}
+
+.table_analytics .table__bottom {
+    padding-right: 42px
+}
+
+.table_analytics .table__header-type {
+    flex: 1 0 79px;
+    max-width: 79px;
+    margin-right: 187px
+}
+
+.table_analytics .table__header-otd {
+    flex: 1 0 95px;
+    max-width: 95px;
+    margin-right: 170px
+}
+
+.table_analytics .table__header-slotsfree {
+    flex: 1 0 105px;
+    max-width: 105px;
+    margin-right: 100px
+}
+
+.table_analytics .table__header-slotsreserve {
+    flex: 1 0 86px;
+    max-width: 86px;
+    margin-right: 100px
+}
+
+.table_analytics .table__header-slotsbusy {
+    flex: 1 0 68px;
+    max-width: 68px;
+    margin-right: 0
+}
+
+.table_analytics .table__top-type {
+    flex: 1 0 200px;
+    max-width: 200px;
+    margin-right: 66px
+}
+
+.table_analytics .table__top-otd {
+    flex: 1 0 200px;
+    max-width: 200px;
+    margin-right: 65px
+}
+
+.table_analytics .table__top-slotsfree {
+    flex: 1 0 41px;
+    max-width: 41px;
+    margin-right: 164px
+}
+
+.table_analytics .table__top-slotsreserve {
+    flex: 1 0 41px;
+    max-width: 41px;
+    margin-right: 145px
+}
+
+.table_analytics .table__top-slotsbusy {
+    flex: 1 0 68px;
+    max-width: 68px;
+    margin-right: 0
+}
+
+.table_lists .table__header, .table_lists .table__row-top {
+    padding: 10px 20px;
+    min-height: 50px
+}
+
+.table_lists .table__row {
+    cursor: auto
+}
+
+.table_lists .table__header-org {
+    flex: 1 0 176px;
+    max-width: 176px;
+    margin-right: 95px
+}
+
+.table_lists .table__top-org {
+    flex: 1 0 244px;
+    max-width: 244px;
+    margin-right: 30px
+}
+
+.table_lists .table__header-quartal, .table_lists .table__top-quartal {
+    flex: 1 0 79px;
+    max-width: 79px;
+    margin-right: 90px
+}
+
+.table_lists .table__header-total, .table_lists .table__top-total {
+    flex: 1 0 68px;
+    max-width: 68px;
+    margin-right: 90px
+}
+
+.table_napr-services .table__header, .table_napr-services .table__row-top {
+    min-height: 50px;
+    padding: 8px 20px
+}
+
+.table_napr-services .table__header div:before {
+    display: none
+}
+
+.table_napr-services .table__row {
+    cursor: auto
+}
+
+.table_napr-services .table__header-kod, .table_napr-services .table__top-kod {
+    flex: 1 0 121px;
+    max-width: 121px;
+    margin-right: 20px
+}
+
+.table_napr-services .table__header-title, .table_napr-services .table__top-title {
+    flex: 1 0 470px;
+    max-width: 470px;
+    margin-right: 44px
+}
+
+.table_napr-services .table__header-method, .table_napr-services .table__top-method {
+    flex: 1 0 140px;
+    max-width: 140px;
+    margin-right: 30px
+}
+
+.table_napr-services .table__header-date-in, .table_napr-services .table__top-date-in {
+    flex: 1 0 90px;
+    max-width: 90px;
+    margin-right: 25px
+}
+
+.table_napr-services .table__header-date-out, .table_napr-services .table__top-date-out {
+    flex: 1 0 90px;
+    max-width: 90px;
+    margin-right: 0
+}
+
+.table_napr-pacients .table__header, .table_napr-pacients .table__row-top {
+    min-height: 50px;
+    padding: 8px 25px 8px 30px
+}
+
+.table_napr-pacients .table__header div:before {
+    display: none
+}
+
+.table_napr-pacients .table__row {
+    cursor: auto
+}
+
+.table_napr-pacients .table__header-surname, .table_napr-pacients .table__top-surname {
+    flex: 1 0 80px;
+    max-width: 80px;
+    margin-right: 21px
+}
+
+.table_napr-pacients .table__header-name, .table_napr-pacients .table__top-name {
+    flex: 1 0 78px;
+    max-width: 78px;
+    margin-right: 20px
+}
+
+.table_napr-pacients .table__header-lastname, .table_napr-pacients .table__top-lastname {
+    flex: 1 0 119px;
+    max-width: 119px;
+    margin-right: 19px
+}
+
+.table_napr-pacients .table__header-birth, .table_napr-pacients .table__top-birth {
+    flex: 1 0 111px;
+    max-width: 111px;
+    margin-right: 23px
+}
+
+.table_napr-pacients .table__header-snils, .table_napr-pacients .table__top-snils {
+    flex: 1 0 111px;
+    max-width: 111px;
+    margin-right: 17px
+}
+
+.table_napr-pacients .table__header-oms, .table_napr-pacients .table__top-oms {
+    flex: 1 0 160px;
+    max-width: 160px;
+    margin-right: 20px
+}
+
+.table_napr-pacients .table__header-adress, .table_napr-pacients .table__top-adress {
+    flex: 1 0 237px;
+    max-width: 237px;
+    margin-right: 0
+}
+
+.table_cons .table__wrapper {
+    padding-top: 10px
+}
+
+.table_cons .table__header {
+    padding: 8px 45px 8px 70px
+}
+
+.table_cons .table__row-top {
+    padding: 15px 70px 15px 30px
+}
+
+.table_cons .table__row-bottom {
+    padding: 14px 70px
+}
+
+.table_cons .table__header-fio {
+    flex: 1 0 80px;
+    max-width: 80px;
+    margin-right: 50px
+}
+
+.table_cons .table__header-birth {
+    flex: 1 0 120px;
+    max-width: 120px;
+    margin-right: 25px
+}
+
+.table_cons .table__header-diagnos {
+    flex: 1 0 70px;
+    max-width: 70px;
+    margin-right: 25px
+}
+
+.table_cons .table__header-org {
+    flex: 1 0 140px;
+    max-width: 140px;
+    margin-right: 105px
+}
+
+.table_cons .table__header-profile {
+    flex: 1 0 195px;
+    max-width: 195px;
+    margin-right: 35px
+}
+
+.table_cons .table__header-date {
+    flex: 1 0 110px;
+    max-width: 110px;
+    margin-right: 0
+}
+
+.table_cons .table__top-status {
+    flex: 1 0 20px;
+    max-width: 20px;
+    margin-right: 20px
+}
+
+.table_cons .table__top-fio {
+    flex: 1 0 110px;
+    max-width: 110px;
+    margin-right: 20px
+}
+
+.table_cons .table__top-birth {
+    flex: 1 0 75px;
+    max-width: 75px;
+    margin-right: 70px
+}
+
+.table_cons .table__top-diagnos {
+    flex: 1 0 70px;
+    max-width: 70px;
+    margin-right: 25px
+}
+
+.table_cons .table__top-org {
+    flex: 1 0 210px;
+    max-width: 210px;
+    margin-right: 35px
+}
+
+.table_cons .table__top-profile {
+    flex: 1 0 200px;
+    max-width: 200px;
+    margin-right: 30px
+}
+
+.table_cons .table__top-date {
+    flex: 1 0 75px;
+    max-width: 75px;
+    margin-right: 0
+}
+
+.table_cons .table__bottom-edit {
+    flex: 1 0 40px;
+    max-width: 40px;
+    margin-right: 90px
+}
+
+.table_cons .table__bottom-orgnapr {
+    flex: 1 0 210px;
+    max-width: 210px;
+    margin-right: 35px
+}
+
+.table_cons .table__bottom-orgprim {
+    flex: 1 0 210px;
+    max-width: 210px;
+    margin-right: 30px
+}
+
+.table_cons .table__bottom-place {
+    flex: 1 0 210px;
+    max-width: 210px;
+    margin-right: 20px
+}
+
+.table_cons .table__bottom-date {
+    flex: 1 0 85px;
+    max-width: 85px;
+    margin-right: 0
+}
+
+.table_hospitalisation .table__wrapper {
+    padding-top: 10px
+}
+
+.table_hospitalisation .table__header {
+    padding: 8px 80px 8px 70px
+}
+
+.table_hospitalisation .table__row-top {
+    padding: 15px 30px
+}
+
+.table_hospitalisation .table__row-bottom {
+    padding: 14px 30px 14px 70px
+}
+
+.table_hospitalisation .table__header-fio {
+    flex: 1 0 79px;
+    max-width: 79px;
+    margin-right: 50px
+}
+
+.table_hospitalisation .table__header-birth {
+    flex: 1 0 119px;
+    max-width: 119px;
+    margin-right: 20px
+}
+
+.table_hospitalisation .table__header-diagnos {
+    flex: 1 0 70px;
+    max-width: 70px;
+    margin-right: 20px
+}
+
+.table_hospitalisation .table__header-profile {
+    flex: 1 0 191px;
+    max-width: 191px;
+    margin-right: 30px
+}
+
+.table_hospitalisation .table__header-date-wait {
+    flex: 1 0 124px;
+    max-width: 124px;
+    margin-right: 116px
+}
+
+.table_hospitalisation .table__header-date-hosp {
+    flex: 1 0 100px;
+    max-width: 100px;
+    margin-right: 0
+}
+
+.table_hospitalisation .table__top-status {
+    flex: 1 0 20px;
+    max-width: 20px;
+    margin-right: 20px
+}
+
+.table_hospitalisation .table__top-fio {
+    flex: 1 0 110px;
+    max-width: 110px;
+    margin-right: 19px
+}
+
+.table_hospitalisation .table__top-birth {
+    flex: 1 0 80px;
+    max-width: 80px;
+    margin-right: 59px
+}
+
+.table_hospitalisation .table__top-diagnos {
+    flex: 1 0 70px;
+    max-width: 70px;
+    margin-right: 20px
+}
+
+.table_hospitalisation .table__top-profile {
+    flex: 1 0 200px;
+    max-width: 200px;
+    margin-right: 21px
+}
+
+.table_hospitalisation .table__top-date-wait {
+    flex: 1 0 80px;
+    max-width: 80px;
+    margin-right: 161px
+}
+
+.table_hospitalisation .table__top-date-hosp {
+    flex: 1 0 80px;
+    max-width: 80px;
+    margin-right: 50px
+}
+
+.table_hospitalisation .table__top-alert {
+    flex: 1 0 20px;
+    max-width: 20px;
+    margin-right: 0
+}
+
+.table_hospitalisation .table__bottom-buttons {
+    flex: 1 0 100px;
+    max-width: 100px;
+    margin-right: 29px;
+    display: flex;
+    justify-content: space-between
+}
+
+.table_hospitalisation .table__bottom-orgprik {
+    flex: 1 0 210px;
+    max-width: 210px;
+    margin-right: 19px
+}
+
+.table_hospitalisation .table__bottom-orgnapr {
+    flex: 1 0 210px;
+    max-width: 210px;
+    margin-right: 11px
+}
+
+.table_hospitalisation .table__bottom-orgprim {
+    flex: 1 0 210px;
+    max-width: 210px;
+    margin-right: 30px
+}
+
+.table_departament .table__header {
+    padding: 8px 129px 8px 30px;
+    min-height: 50px
+}
+
+.table_departament .table__row-top {
+    padding: 15px 30px
+}
+
+.table_departament .table__row-bottom {
+    padding: 14px 70px 14px 30px
+}
+
+.table_departament .table__header-title {
+    flex: 1 0 78px;
+    max-width: 78px;
+    margin-right: 175px
+}
+
+.table_departament .table__header-fio {
+    flex: 1 0 151px;
+    max-width: 151px;
+    margin-right: 97px
+}
+
+.table_departament .table__header-strukt {
+    flex: 1 0 118px;
+    max-width: 118px;
+    margin-right: 210px
+}
+
+.table_departament .table__header-profile {
+    flex: 1 0 82px;
+    max-width: 82px;
+    margin-right: 0
+}
+
+.table_departament .table__top-title {
+    flex: 1 0 200px;
+    max-width: 200px;
+    margin-right: 53px
+}
+
+.table_departament .table__top-fio {
+    flex: 1 0 200px;
+    max-width: 200px;
+    margin-right: 49px
+}
+
+.table_departament .table__top-strukt {
+    flex: 1 0 250px;
+    max-width: 250px;
+    margin-right: 78px
+}
+
+.table_departament .table__top-profile {
+    flex: 1 0 150px;
+    max-width: 150px;
+    margin-right: 0
+}
+
+.table_departament .table__bottom-oid-otd {
+    flex: 1 0 300px;
+    max-width: 300px;
+    margin-right: 202px
+}
+
+.table_departament .table__bottom-oid-podr {
+    flex: 1 0 360px;
+    max-width: 360px;
+    margin-right: 0
+}
+
+.table_tmk .table__header {
+    min-height: 50px;
+    padding: 7px 77px 9px 80px
+}
+
+.table_tmk .table__row-top {
+    padding: 10px 20px 10px 30px
+}
+
+.table_tmk .table__row-bottom {
+    padding: 14px 20px 14px 80px
+}
+
+.table_tmk .table__header-vid {
+    flex: 1 0 88px;
+    max-width: 88px;
+    margin-right: 30px
+}
+
+.table_tmk .table__header-fio {
+    flex: 1 0 100px;
+    max-width: 100px;
+    margin-right: 40px
+}
+
+.table_tmk .table__header-birth {
+    flex: 1 0 120px;
+    max-width: 120px;
+    margin-right: 30px
+}
+
+.table_tmk .table__header-diagnos {
+    flex: 1 0 70px;
+    max-width: 70px;
+    margin-right: 40px
+}
+
+.table_tmk .table__header-goal {
+    flex: 1 0 165px;
+    max-width: 165px;
+    margin-right: 115px
+}
+
+.table_tmk .table__header-date {
+    flex: 1 0 115px;
+    max-width: 115px;
+    margin-right: 0
+}
+
+.table_tmk .table__top-info {
+    flex: 1 0 20px;
+    max-width: 20px;
+    margin-right: 30px
+}
+
+.table_tmk .table__top-vid {
+    flex: 1 0 80px;
+    max-width: 80px;
+    margin-right: 38px
+}
+
+.table_tmk .table__top-fio {
+    flex: 1 0 120px;
+    max-width: 120px;
+    margin-right: 20px
+}
+
+.table_tmk .table__top-birth {
+    flex: 1 0 120px;
+    max-width: 120px;
+    margin-right: 30px
+}
+
+.table_tmk .table__top-diagnos {
+    flex: 1 0 70px;
+    max-width: 70px;
+    margin-right: 40px
+}
+
+.table_tmk .table__top-goal {
+    flex: 1 0 250px;
+    max-width: 250px;
+    margin-right: 30px
+}
+
+.table_tmk .table__top-date {
+    flex: 1 0 125px;
+    max-width: 125px;
+    margin-right: 27px
+}
+
+.table_tmk .table__top-alert {
+    flex: 1 0 20px;
+    max-width: 20px;
+    margin-right: 0
+}
+
+.table_tmk .table__bottom-call {
+    flex: 1 0 40px;
+    max-width: 40px;
+    margin-right: 78px
+}
+
+.table_tmk .table__bottom-profile {
+    flex: 1 0 202px;
+    max-width: 202px;
+    margin-right: 85px
+}
+
+.table_tmk .table__bottom-org {
+    flex: 1 0 230px;
+    max-width: 230px;
+    margin-right: 159px
+}
+
+.table_tmk .table__bottom-doctor {
+    flex: 1 0 159px;
+    max-width: 159px;
+    margin-right: 0
+}

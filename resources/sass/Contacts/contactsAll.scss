@@ -1,0 +1,94 @@
+
+
+.table_contacts{
+    $photoSize: 64px;
+    $elementsMargins: 18px;
+
+    $elementSizes: (1: 180, 2: 232, 3: 136, 4: 136, 5: 152);
+
+
+
+    .table__header {
+        padding: 18px 18px 18px 18px;
+
+        .table__header-1 {
+            flex: map-get($elementSizes, 1) 0 auto;
+            flex-basis: 5px;
+            margin-left: $photoSize + $elementsMargins;
+        }
+
+        .table__header-2 {
+            flex: map-get($elementSizes, 2) 0 auto;
+            flex-basis: 5px;
+            margin-left: $elementsMargins;
+        }
+
+        .table__header-3 {
+            flex: map-get($elementSizes, 3) 0 auto;
+            flex-basis: 5px;
+            margin-left: $elementsMargins;
+        }
+
+        .table__header-4 {
+            flex: map-get($elementSizes, 4) 0 auto;
+            flex-basis: 5px;
+            margin-left: $elementsMargins;
+        }
+
+        .table__header-5 {
+            flex: map-get($elementSizes, 5) 0 auto;
+            flex-basis: 5px;
+            margin-left: $elementsMargins;
+        }
+    }
+
+    .table__body {
+        .table__row-top {
+            padding: 18px 18px 18px 18px;
+        }
+
+        .table__row-bottom {
+            padding: 14px 18px 14px 18px;
+        }
+
+        .table__text_wrap{
+            overflow-wrap: anywhere;
+        }
+
+        .table__col_1 {
+            flex-grow: map-get($elementSizes, 1);
+            flex-basis: 5px;
+            margin-left: $elementsMargins;
+        }
+        .table__col_2 {
+            flex-grow: map-get($elementSizes, 2);
+            flex-basis: 5px;
+            margin-left: $elementsMargins;
+        }
+        .table__col_3 {
+            flex-grow: map-get($elementSizes, 3);
+            flex-basis: 5px;
+            margin-left: $elementsMargins;
+        }
+        .table__col_4 {
+            flex-grow: map-get($elementSizes, 4);
+            flex-basis: 5px;
+            margin-left: $elementsMargins;
+        }
+        .table__col_5 {
+            flex-grow: map-get($elementSizes, 5);
+            flex-basis: 5px;
+            margin-left: $elementsMargins;
+        }
+    }
+
+    .img_photo{
+        width: $photoSize;
+        height: $photoSize;
+    }
+
+    .img_cake {
+        width: 24px;
+        height: 24px;
+    }
+}

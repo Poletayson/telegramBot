@@ -1,0 +1,232 @@
+$logoColor: #7a563d;
+
+//Логотип
+.logo {
+    .logo__separator {
+        height: 100%;
+        width: 3px;
+        background: $logoColor;
+        //border-width: 1.5px;
+        border-color: $logoColor;
+        border-radius: 1.1px;
+    }
+    .logo__text {
+        font-size: 14px;
+        font-weight: 500;
+        font-family: Trebuchet MS, Gadget, sans-serif;
+        line-height: 1.1;
+        color: $logoColor;
+    }
+
+}
+
+.button {
+    justify-content: center;
+    align-items: center;
+    padding: 0.7rem 1.8rem;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    border-radius: 2rem;
+    transition: all .3s ease-in-out;
+
+    &:disabled {
+        cursor: auto;
+    }
+
+    &:active {
+        outline: none;
+    }
+}
+
+.button_violet {
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    background-color: #4a4d76;
+    box-shadow: 0 4px 10px rgba(74, 77, 118, .1);
+
+    &:hover {
+        background-color: #3d4069;
+    }
+    &:focus {
+        outline: 1px solid rgba(74, 77, 118, .4);
+    }
+    &:active {
+        background-color: #7d7f9b;
+    }
+
+    &:disabled {
+        background-color: #c8c8c8;
+        .button__text {
+            color: #616161
+        }
+    }
+
+    .button__text {
+        color: #fff
+    }
+}
+
+.button_violet-min {
+    width: 50px;
+    height: 30px;
+    padding: 0;
+    border: 0;
+    background-color: #4a4d76;
+    box-shadow: 0 5px 10px rgba(74, 77, 118, .15);
+    border-radius: 100px;
+    color: #fff;
+    font: 10px/10px lato, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Ubuntu, Arial, sans-serif;
+
+    &:hover {
+        background-color: #7d7f9b
+    }
+}
+
+
+.button_white-min {
+    width: 90px;
+    height: 30px
+}
+
+
+.button_white {
+    display: inline-flex;
+    border: 0;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(74, 77, 118, .1);
+
+    &:before {
+        border: 1px solid #4a4d76;
+        opacity: 1
+    }
+
+    &:after {
+        border: 2px solid #3d4069;
+        opacity: 0
+    }
+
+    &:after, &:before {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 2rem;
+        transition: all .3s ease-in-out;
+    }
+
+    &:hover {
+        box-shadow: 0 5px 10px rgba(74, 77, 118, .15);
+
+        .button__text {
+            color: #3d4069
+        }
+
+        &:before {
+            opacity: 0;
+        }
+
+        &:after {
+            opacity: 1;
+        }
+    }
+
+    &:focus {
+        outline: 1px solid rgba(74, 77, 118, .4);
+    }
+
+    &:active {
+        &:before {
+            border: 1px solid #7d7f9b;
+            opacity: 1
+        }
+        &:after {
+            opacity: 0
+        }
+
+        .button__text {
+            color: #7d7f9b
+        }
+    }
+
+    &:disabled {
+        box-shadow: 0 4px 10px rgba(74, 77, 118, .1);
+
+        &:before {
+            border: 1px solid #c8c8c8;
+            opacity: 1;
+        }
+
+        &:after {
+            display: none;
+        }
+
+        .button__text {
+            color: #c8c8c8;
+        }
+    }
+
+    .button__text {
+        color: #4a4d76;
+    }
+}
+
+.button_circle {
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    transition: all .3s ease-in-out;
+    border: none;
+    background-color: #4a4d76;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(74, 77, 118, .1);
+
+    span {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 20px;
+        height: 20px
+    }
+}
+
+.button_circle:focus, .button_circle:hover {
+    background-color: #7d7f9b
+}
+
+
+.button_circle-min {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: #4a4d76;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(74, 77, 118, .1)
+}
+
+.button_circle-min:focus, .button_circle-min:hover {
+    background-color: #7d7f9b
+}
+
+.button_circle-min span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20px;
+    height: 20px
+}
+
+//Модальное окно
+.modal {
+    border-radius: 20px;
+}

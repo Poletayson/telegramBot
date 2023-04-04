@@ -1,0 +1,33 @@
+<svg width="335.84562" height="54.52314" xmlns="http://www.w3.org/2000/svg">
+ <metadata id="metadata5">image/svg+xml</metadata>
+
+ <g>
+  <title>background</title>
+  <rect x="-1" y="-1" width="337.84562" height="56.52314" id="canvas_background" fill="none"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g id="layer2">
+   <text xml:space="preserve" x="-0.94419" y="-9.245379" id="text940" stroke-width="0.570176" fill="#000000" font-family="sans-serif" font-size="22.807058px" font-weight="normal" font-style="normal"/>
+  </g>
+  <g id="layer3"/>
+  <g id="layer5">
+   <g id="g971">
+    <g id="text945" stroke-width="0.63177" fill="#4a4d76" font-family="Roboto" font-size="25.270819px" font-weight="normal" font-style="normal"/>
+    <g transform="matrix(1.090458,0,0,1.090458,-24.461024,-18.596651) " id="g910">
+     <g id="g931">
+      <g id="g915">
+       <path id="path922" d="m67.20872,44.25815c-3.8124,3.91241 -5.95525,3.08988 -8.26602,0.26727c-1.1283,-1.1061 -3.28962,-2.5655 -5.21175,-0.80181c-3.34088,3.20724 -5.81312,14.43255 -5.81312,14.43255l0.40091,-26.59331c0,0 -1.33635,8.95352 -4.00905,13.36347c-2.67269,4.40994 -7.3499,1.06908 -7.3499,1.06908c0,0 -9.65439,-7.17024 -9.2219,1.33635" stroke-opacity="0.992157" stroke-miterlimit="4" stroke-width="0.7" stroke="#f6abba" fill="none"/>
+       <path id="path1068" d="m48.03483,61.83212l13.11285,0l0,5c0,0 -7.63382,-0.0223 -13.11285,0c-17.46213,-0.94494 -25.82546,-9.54987 -25.82611,-25c-0.00051,-12.19543 9.52795,-24.96385 30.5886,-24.99999c12.04146,0.35503 18.79128,6.92303 19.41136,14.80822l0,35.19177l-5,0l0.00035,-31.10961c0,-9.03618 -5.73279,-13.61674 -14.29367,-13.89039c-13.97159,-0.30305 -25.51765,7.91852 -25.70664,20c-0.868,12.32601 10.48436,20.07347 20.82611,20z" stroke-miterlimit="4" stroke-width="0.7" fill="#616161"/>
+       <path id="path1099" d="m82.20853,16.83198l0,50.00005l5.00021,0l0,-15.00012l11.90108,0c4.2405,0 23.09885,0.00026 23.09885,-17.49971c0,-17.5 -15.7529,-17.50022 -22.83013,-17.50022l-17.17001,0zm5.00021,5.00021l12.69276,0c7.61583,0 17.30748,0.00002 17.30748,12.50001c0,12.5 -12.23789,12.50001 -17.97255,12.50001l-12.02769,0l0,-25.00002z" stroke-miterlimit="4" stroke-width="0.7" fill="#616161"/>
+       <path d="m137.20871,66.81733l-4.99999,0.0148l0,-50l4.99999,0l17.5052,25l17.49481,-25l4.99999,0l0,50l-4.99999,-0.0148l0,-41.98146l-17.5,24.99259l-17.5,-24.99259l-0.00001,41.98146z" id="path1117" stroke-miterlimit="4" stroke-width="0.7" fill="#616161"/>
+      </g>
+     </g>
+     <rect ry="1.47059" y="16.832111" x="190.066391" height="50.000061" width="2.941181" id="rect955" stroke-miterlimit="4" stroke-width="0.953022" fill="#634028"/>
+    </g>
+   </g>
+  </g>
+  <text fill="#7a563d" stroke-width="0.63177" x="193.038903" y="47.588248" id="svg_4" font-size="24" font-family="'Trebuchet MS', Gadget, sans-serif" text-anchor="start" xml:space="preserve" font-weight="normal">ЦЕНТР</text>
+  <text fill="#7a563d" stroke="null" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="193.028011" y="24.445564" id="svg_7" font-size="24" font-family="'Trebuchet MS', Gadget, sans-serif" text-anchor="start" xml:space="preserve">КОНТАКТ-</text>
+ </g>
+</svg>

@@ -1,0 +1,54 @@
+.message_wrapper {
+    width: 100%;
+
+    .message {
+        max-width: 85%;
+        border-radius: 0.85rem;
+
+        &.from_client {
+            align-self: start;
+            background-color: #FFFFFF;
+
+            .message_time {
+                color: #a8a8a8;
+            }
+        }
+
+        &.from_operator {
+            align-self: end;
+            background-color: #DCF8C6;
+
+            .message_time {
+                color: #7b9168;
+            }
+        }
+
+        .message_time {
+            font-size: 0.7rem;
+        }
+    }
+}
+
+.message_wrapper:not(:first-child){
+    padding-top: 16px;
+}
+
+.new_chat-request{
+    box-shadow: 0 0 5px 0px #4a4d76;
+}
+
+.chat_notification {
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    background-color: #c41e1e;
+    color: #fff;
+    border-radius: 50%;
+    border-color: #fff;
+    border-width: 1px;
+    width: 1.2rem;
+    height: 1.2rem;
+    right: -0.2rem;
+    top: -0.2rem;
+}
+
